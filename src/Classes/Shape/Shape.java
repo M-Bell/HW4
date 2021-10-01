@@ -1,5 +1,7 @@
 package Classes.Shape;
+
 import Classes.Vertex.Vertex;
+
 import java.util.ArrayList;
 
 public abstract class Shape {

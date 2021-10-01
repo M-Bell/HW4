@@ -2,7 +2,7 @@ package Classes.Shape.Shape2D;
 
 import Classes.Vertex.Vertex2D;
 
-public class Circle extends PlaneShape{
+public class Circle extends PlaneShape {
     private Vertex2D center;
     private final double radius;
 
@@ -14,12 +14,12 @@ public class Circle extends PlaneShape{
 
     @Override
     public double getArea() {
-        return Math.PI*radius*radius;
+        return Math.PI * radius * radius;
     }
 
     @Override
     public double getPerimeter() {
-        return 2*Math.PI*radius;
+        return 2 * Math.PI * radius;
     }
 
     @Override

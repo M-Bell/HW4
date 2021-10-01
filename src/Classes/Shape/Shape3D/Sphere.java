@@ -1,9 +1,8 @@
 package Classes.Shape.Shape3D;
 
-import Classes.Vertex.Vertex2D;
 import Classes.Vertex.Vertex3D;
 
-public class Sphere extends SpaceShape{
+public class Sphere extends SpaceShape {
     private Vertex3D center;
     private final double radius;
 
@@ -15,12 +14,12 @@ public class Sphere extends SpaceShape{
 
     @Override
     public double getArea() {
-        return 4*Math.PI*radius*radius;
+        return 4 * Math.PI * radius * radius;
     }
 
     @Override
     public double getVolume() {
-        return 4*Math.PI*radius*radius*radius/3;
+        return 4 * Math.PI * radius * radius * radius / 3;
     }
 
     @Override

@@ -2,7 +2,7 @@ package Classes.Shape.Shape2D;
 
 import Classes.Vertex.Vertex2D;
 
-public class Rectangle extends PlaneShape{
+public class Rectangle extends PlaneShape {
     private Vertex2D vertA;
     private double width;
     private double height;
@@ -16,12 +16,12 @@ public class Rectangle extends PlaneShape{
 
     @Override
     public double getArea() {
-        return width* height;
+        return width * height;
     }
 
     @Override
     public double getPerimeter() {
-        return (width + height)*2;
+        return (width + height) * 2;
     }
 
     @Override

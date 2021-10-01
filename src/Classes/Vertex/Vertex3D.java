@@ -1,6 +1,6 @@
 package Classes.Vertex;
 
-public class Vertex3D extends Vertex2D{
+public class Vertex3D extends Vertex2D {
 
     private final int z;
 

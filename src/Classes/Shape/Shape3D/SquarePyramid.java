@@ -2,7 +2,7 @@ package Classes.Shape.Shape3D;
 
 import Classes.Vertex.Vertex3D;
 
-public class SquarePyramid extends SpaceShape{
+public class SquarePyramid extends SpaceShape {
     private final Vertex3D baseCenter;
     private final double baseWidth;
     private final double pyramidHeight;
@@ -14,15 +14,16 @@ public class SquarePyramid extends SpaceShape{
         verticesList.add(baseCenter);
     }
 
-    private double getBaseArea(){
-        return baseWidth*baseWidth;
+    private double getBaseArea() {
+        return baseWidth * baseWidth;
     }
 
-    private double getSideArea(){
-        double sideLen = Math.sqrt(pyramidHeight * pyramidHeight + baseWidth*baseWidth/2);
-        double sideHeight = Math.sqrt(sideLen*sideLen - baseWidth*baseWidth/4);
-        return sideHeight*baseWidth*2;
+    private double getSideArea() {
+        double sideLen = Math.sqrt(pyramidHeight * pyramidHeight + baseWidth * baseWidth / 2);
+        double sideHeight = Math.sqrt(sideLen * sideLen - baseWidth * baseWidth / 4);
+        return sideHeight * baseWidth * 2;
     }
+
     @Override
     public double getArea() {
         return getBaseArea() + getSideArea();
@@ -30,7 +31,7 @@ public class SquarePyramid extends SpaceShape{
 
     @Override
     public double getVolume() {
-        return pyramidHeight*getBaseArea()/3;
+        return pyramidHeight * getBaseArea() / 3;
     }
 
     @Override
