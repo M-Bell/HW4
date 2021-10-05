@@ -1,12 +1,14 @@
-import Classes.Shape.Shape;
-import Classes.Shape.Shape2D.Circle;
-import Classes.Shape.Shape2D.Rectangle;
-import Classes.Shape.Shape2D.Triangle;
-import Classes.Shape.Shape3D.Cuboid;
-import Classes.Shape.Shape3D.Sphere;
-import Classes.Shape.Shape3D.SquarePyramid;
-import Classes.Vertex.Vertex2D;
-import Classes.Vertex.Vertex3D;
+package HW4;
+
+import HW4.Classes.Shape.Shape;
+import HW4.Classes.Shape.Shape2D.Circle;
+import HW4.Classes.Shape.Shape2D.Rectangle;
+import HW4.Classes.Shape.Shape2D.Triangle;
+import HW4.Classes.Shape.Shape3D.Cuboid;
+import HW4.Classes.Shape.Shape3D.Sphere;
+import HW4.Classes.Shape.Shape3D.SquarePyramid;
+import HW4.Classes.Vertex.Vertex2D;
+import HW4.Classes.Vertex.Vertex3D;
 
 public class Tester {
     public static void main(String[] args) {

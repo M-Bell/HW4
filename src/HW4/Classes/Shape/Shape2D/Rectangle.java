@@ -1,6 +1,6 @@
-package Classes.Shape.Shape2D;
+package HW4.Classes.Shape.Shape2D;
 
-import Classes.Vertex.Vertex2D;
+import HW4.Classes.Vertex.Vertex2D;
 
 public class Rectangle extends PlaneShape {
     private Vertex2D vertA;

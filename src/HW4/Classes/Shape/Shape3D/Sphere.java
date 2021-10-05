@@ -1,6 +1,6 @@
-package Classes.Shape.Shape3D;
+package HW4.Classes.Shape.Shape3D;
 
-import Classes.Vertex.Vertex3D;
+import HW4.Classes.Vertex.Vertex3D;
 
 public class Sphere extends SpaceShape {
     private Vertex3D center;

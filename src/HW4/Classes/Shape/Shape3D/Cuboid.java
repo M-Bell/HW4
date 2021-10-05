@@ -1,6 +1,6 @@
-package Classes.Shape.Shape3D;
+package HW4.Classes.Shape.Shape3D;
 
-import Classes.Vertex.Vertex2D;
+import HW4.Classes.Vertex.Vertex2D;
 
 public class Cuboid extends SpaceShape {
     private final Vertex2D vertA;

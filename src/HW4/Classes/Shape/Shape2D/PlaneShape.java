@@ -1,9 +1,9 @@
-package Classes.Shape.Shape2D;
+package HW4.Classes.Shape.Shape2D;
 
-import Classes.Shape.Shape;
-import Classes.Vertex.Vertex2D;
-import Interfaces.AreaMeasurable;
-import Interfaces.PerimeterMeasurable;
+import HW4.Classes.Shape.Shape;
+import HW4.Classes.Vertex.Vertex2D;
+import HW4.Interfaces.AreaMeasurable;
+import HW4.Interfaces.PerimeterMeasurable;
 
 public abstract class PlaneShape extends Shape implements AreaMeasurable, PerimeterMeasurable {
     protected double countVertDistance(Vertex2D X, Vertex2D Y) {

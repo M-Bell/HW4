@@ -1,4 +1,4 @@
-package Classes.Vertex;
+package HW4.Classes.Vertex;
 
 public class Vertex2D extends Vertex {
     private final int x;

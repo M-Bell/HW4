@@ -1,6 +1,6 @@
-package Classes.Shape;
+package HW4.Classes.Shape;
 
-import Classes.Vertex.Vertex;
+import HW4.Classes.Vertex.Vertex;
 
 import java.util.ArrayList;
 
