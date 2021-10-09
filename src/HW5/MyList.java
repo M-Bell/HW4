@@ -2,6 +2,7 @@ package HW5;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.NoSuchElementException;
 
 public class MyList<T extends Comparable<T>> {
@@ -21,6 +22,8 @@ public class MyList<T extends Comparable<T>> {
 
     public T largest() {
         if (data.size() == 0) throw new NoSuchElementException();
+        if (this.data.get(0).getClass().equals(String.class))
+            return data.stream().max(Comparator.comparingInt(o -> String.valueOf(o).length())).get();
         return data.stream().max(T::compareTo).get();
     }
 
