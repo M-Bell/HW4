@@ -1,5 +1,8 @@
 package HW5;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Tester {
     public static void main(String[] args) {
         System.out.println("Created list of Integers (bounded to Numbers)");
